@@ -1,0 +1,252 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* -------------- SESSÃO TOPO ------------------*/
+
+.inicio {
+    max-width: 900px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+
+.logo img {
+    max-width: 60px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.text {
+    margin-left: 15px;
+}
+
+.text p {
+    color: #2f86d6;
+    font-weight: 500;
+}
+
+header {
+    padding: 10px 0;
+}
+header div p {
+    color: #2f86d6;
+    font-weight: 500;
+}
+header nav a {
+    text-decoration: none;
+    color: #233032;
+    padding: 0 10px;
+}
+
+/* ------------- SESSÃO BANNER -----------------*/
+
+.banner {
+    background-color: #2f86d6;
+    color: #fff;   
+    margin: auto;
+    padding: 50px 0;
+}
+.banner img {
+    width: 450px;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 900px;
+}
+.container > div {
+    max-width: 500px;
+}
+.container div p {
+    padding: 10px;
+}
+.container div h2 {
+    padding: 10px;
+}
+
+/* ------------ SESSÃO ANÚNCIOS ----------------*/
+
+.anuncio {
+    max-width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    height: 100px;
+    color: #fff;
+}
+
+.anuncio01 {
+    background-color: #233032;
+}
+.anuncio01 .buttom01 {
+    background-color: #2f86d6;
+}
+
+.anuncio02 {
+    background-color: #2f86d6;
+}
+.anuncio02 .buttom02 {
+    background-color: #233032;
+}
+
+.text-anuncio {
+    max-width: 600px;
+}
+
+.buttom01, 
+.buttom02 {
+    padding: 10px;
+    border-radius: 5px;
+}
+.buttom01 a,
+.buttom02 a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ----------- SESSÃO INFORMAÇÕES --------------*/
+
+.box-info {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: baseline;
+}
+.infos {
+    background-color: #fff;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    padding: 80px 0;
+}
+.infos img {
+    max-width: 30%;
+}
+.infos h2 {
+    max-width: 700px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+span {
+    color: #2f86d6;
+}
+
+
+/*----------------------- SESSÃO PLANOS/TABELA */
+
+#planos {
+    padding: 100px 0;
+    background-color: #eef8ff;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    
+}
+#planos div h2 {
+    padding: 40px 0;
+}
+
+.plan {
+    text-align: center;
+    max-width: 1024px;
+}
+.plan h3 {
+    font-size: 32px;
+    margin-bottom: 70px;
+    max-width: 800px;
+}
+
+table {
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px 10px #2f86d6;
+    background-color: #eef0f5;
+}
+table img {
+    max-width: 100px;
+    margin: 5px;
+}
+table th,
+table td {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #fff;
+}
+table td {
+    font-weight: 500;
+}
+
+.cinza td {
+    background-color: #f1f3f7;
+}
+
+.indice tr p{
+   margin: auto;
+}
+
+.small {
+    color: #a5ccd6;
+    font-size: 13px;
+    max-width: 130px;
+    font-weight: 500;
+    margin: auto;
+}
+
+/* --------------------------- SESSÃO RODAPÉ ------------- */
+
+
+
+.logo img {
+    max-width: 70px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.text01 p {
+    color: #2f86d6;
+    font-weight: 500;
+}
+
+footer section{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.text02 p {
+    padding: 5px;
+    font-weight: 500;
+    
+}
+.text02 a {
+    text-decoration: none;
+    color: #2f86d6;
+    font-weight: 600;
+}
+
+.copy {
+    padding: 20px 0;
+    background-color: #f1f3f7;
+    font-weight: bold;
+}
